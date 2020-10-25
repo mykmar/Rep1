@@ -1,15 +1,16 @@
-[data-description="attributes"] {
-    color: grey;
+[data-description="anchors"] {
+    background-color: grey;
 }
 
 [data-description] {
     font-size: 24px;
 }
 
-a [href] [target] {
+[href],
+[target] {
     color: green;
 }
 
-input [type="orange"] {
+[type="text"] {
     background-color: orange;
 }
