@@ -10,20 +10,14 @@ a[href^="broken"] {
 a[href$=".com"] {   
     margin-left: 50px
 }
-a[lang*="en"],
-[lang|="en-"] {
+a[lang|="en"] {
     font-size: 10px;
 }
 a[href*="www"] {
     color: green;
 }
-a[title*="popular"] {
+a[title~="popular"] {
     font-size: 24px;
 }
-.Wikipedia {
-    font-size: 18px !important;
-}
-.Microsoft {
-    font-size: 15px !important;
-}
+
 
