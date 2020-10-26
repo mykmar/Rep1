@@ -10,8 +10,8 @@ ol {
 
 li {
     background-color: yellow;
-    /* list-style-position: inside;
-    padding-left: 20px; */
+    list-style-position: inside;
+    /* padding-left: 20px; */
 }
 
 header,
