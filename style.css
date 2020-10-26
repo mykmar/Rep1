@@ -2,15 +2,17 @@ a[target="_blank"] {
     color: green;
 }
 
-ul,
+
+/* ul,
 ol {
     padding-left: 0px;
-}
+} */
 
-li {
+ul,
+ol {
     background-color: yellow;
-    list-style-position: inside;
-    padding-left: 20px;
+    /* list-style-position: inside;
+    padding-left: 20px; */
 }
 
 header,
