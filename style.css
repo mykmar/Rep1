@@ -2,15 +2,16 @@ a[target="_blank"] {
     color: green;
 }
 
-ul,
+
+/* ul,
 ol {
     padding-left: 0px;
-}
+} */
 
 li {
     background-color: yellow;
-    list-style-position: inside;
-    padding-left: 20px;
+    /* list-style-position: inside;
+    padding-left: 20px; */
 }
 
 header,
@@ -31,7 +32,6 @@ article[class~="new"] {
 
 li[class~="new"] {
     background-color: red;
-    list-style-type: none;
 }
 
 .new.posted-today {
