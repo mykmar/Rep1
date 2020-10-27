@@ -1,9 +1,9 @@
 [type="checkbox"]:checked {
   margin-left: 50px;
 }
-/* label {
-  text-transform: capitalize;
-} */
+label {
+  text-transform: uppercase;
+}
 #special::first-letter {
   color: green;
   font-size: 100px;
