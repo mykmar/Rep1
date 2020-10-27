@@ -28,9 +28,6 @@ div p {
 input[type="text"] {
   background-color: gray;
 }
-div + div + div > p {
-  background-color: red;
-}
 div + div + div > p:last-child {
   border: 5px solid white;
 }
