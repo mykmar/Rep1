@@ -1,9 +1,10 @@
 div {
   background-color: bisque;
   margin: 50px 100px;
-  padding: 19px;
+  padding: 20px;
+  padding-top: 19px;
   width: 420px;
-  height: 140px;
+  height: 141px;
   border-width: 10px 20px;
   border-color: firebrick chartreuse burlywood aqua;
   border-style: solid solid dashed dashed;
