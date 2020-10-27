@@ -11,7 +11,7 @@ li {
   color: blue;
 }
 p {
-  color: yellow;
+  background-color: yellow;
 }
 input {
   border: 3px solid red;
