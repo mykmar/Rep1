@@ -1,18 +1,17 @@
-li {
-  margin-bottom: 16px;
-}
-ul > li:first-child > span {
-  background-color: red;
-  color: white;
-}
-ul > li:last-child > span {
-  background-color: black;
-  color: white;
-}
-ul > li:nth-child(even) > span {
+.theory::first-letter {
+  font-size: 36px;
   margin-left: 16px;
+  color: orange;
 }
-.paragraphs > p:nth-child(1),
-p:nth-child(4) {
-  background-color: gray;
+.theory::first-line {
+  font-size: 24px;
+}
+.theory::selection {
+  background-color: red;
+}
+a::before {
+  content: "> ";
+}
+a::after {
+  content: " <";
 }
