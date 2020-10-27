@@ -16,6 +16,7 @@ body {
 .div1 {
   box-sizing: content-box;
   background-color: aquamarine;
+  height: 129px;
 }
 .div2 {
   box-sizing: border-box;
