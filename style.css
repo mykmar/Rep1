@@ -1,16 +1,40 @@
-[type="checkbox"]:checked {
-  margin-left: 50px;
+body {
+  background-color: #bdc3c7;
 }
-label {
-  text-transform: uppercase;
+h1 {
+  color: #9b59b6;
 }
-#special::first-letter {
-  color: green;
-  font-size: 100px;
+h2 {
+  color: orange;
 }
-h1:hover {
+li {
   color: blue;
 }
-a:visited {
-  color: gray;
+p {
+  color: yellow;
+}
+input {
+  border: 3px solid red;
+}
+.hello {
+  background-color: white;
+}
+#special {
+  border: 2px solid blue;
+}
+div p {
+  font-size: 25px;
+}
+input[type="text"] {
+  background-color: gray;
+}
+div + div + div > p {
+  background-color: red;
+}
+div + div + div > p:last-child {
+  border: 5px solid white;
+}
+em {
+  color: white;
+  font-size: 20px;
 }
