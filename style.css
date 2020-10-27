@@ -7,4 +7,5 @@ div {
   border-width: 10px 20px;
   border-color: firebrick chartreuse burlywood aqua;
   border-style: solid solid dashed dashed;
+  font-size: 1.5em;
 }
