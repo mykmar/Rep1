@@ -1,21 +1,28 @@
-.already-learned ol {
-  background-color: green;
+.anchor:link {
   color: white;
+  background-color: black;
 }
-.to-be-learned ol {
-  background-color: orange;
+.anchor:visited {
   color: green;
-}
-.already-learned code {
   background-color: orange;
 }
-.to-be-learned code {
-  background-color: green;
-}
-#special1 ~ li > h4 > code {
-  border: 2px solid blue;
-}
-
-ul > #special2 ~ li {
+.anchor:hover {
   font-size: 24px;
+}
+.some-button:active,
+.anchor:active {
+  border: 3px solid red;
+}
+.some-button:disabled {
+  border: 2px dashed grey;
+}
+.some-button:enabled:hover {
+  color: white;
+  background-color: gray;
+}
+input:focus {
+  background-color: orange;
+}
+[type="checkbox"]:checked {
+  margin-left: 20px;
 }
