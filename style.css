@@ -13,14 +13,17 @@
   height: 40px;
 }
 .nav-list {
-  position: relative;
-  top: 11px;
+  height: 100%;
 }
 .nav-item {
   list-style-type: none;
   color: white;
   margin-left: 16px;
-  display: inline;
+  display: block;
+  height: 100%;
+  float: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .content {
   background-color: beige;
