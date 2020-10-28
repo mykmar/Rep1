@@ -23,7 +23,7 @@
   height: 100%;
   float: left;
   padding-top: 12px;
-  padding-bottom: 12px;
+  line-height: 1;
 }
 .content {
   background-color: beige;
