@@ -13,5 +13,5 @@ header {
   padding: 16px;
   background-color: bisque;
   min-width: 300px;
-  flex: 1 1 300px;
+  flex: 1 0.9 300px;
 }
