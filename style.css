@@ -1,18 +1,9 @@
-* {
-  box-sizing: border-box;
+div > div:first-child {
+  display: none;
 }
-header {
-  text-align: center;
+div > div:nth-child(2) {
+  visibility: hidden;
 }
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.article {
-  margin: 8px;
-  padding: 16px;
-  padding-right: 16px;
-  background-color: bisque;
-  flex-grow: 1;
-  flex-basis: 300px;
+div > div:nth-child(3) {
+  visibility: visible;
 }
