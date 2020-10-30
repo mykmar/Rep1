@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .dropdown {
-  margin: 16px 0px 0px 60px;
+  margin: 16px;
   cursor: pointer;
   position: relative;
 }
