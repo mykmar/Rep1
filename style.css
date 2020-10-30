@@ -1,72 +1,13 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
+.horizontal {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.header {
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-}
-.navigation {
-  height: 40px;
-}
-.nav-list {
-  height: 100%;
-}
-.nav-item {
-  list-style-type: none;
-  color: white;
-  margin-left: 16px;
-  display: block;
-  height: 100%;
-  float: left;
-  padding-top: 12px;
-  line-height: 1;
-}
-.content {
-  background-color: beige;
-  height: 5000px;
-}
-.head {
+.vertical {
   height: 200px;
-  width: 200px;
-  background-color: aquamarine;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0px 0px -100px;
-  z-index: 1;
-}
-.ear {
-  width: 40px;
-  height: 60px;
-  background-color: brown;
-}
-.ear_right {
-  float: right;
-  position: relative;
-  top: -60px;
-  left: 40px;
-}
-.ear_left {
-  float: left;
-  position: relative;
-  top: -60px;
-  left: -40px;
-}
-.eye {
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  background-color: grey;
-  position: relative;
-  top: 80px;
-}
-.eye_right {
-  float: right;
-}
-.eye_left {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
