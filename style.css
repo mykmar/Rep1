@@ -9,7 +9,6 @@
 .dropdown:hover .menu-button {
   opacity: 1;
   font-size: 16px;
-  color: white;
 }
 .dropdown:hover .menu-list {
   display: inline-block;
@@ -19,6 +18,7 @@
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
+  color: white;
 }
 .menu-list {
   display: none;
@@ -30,7 +30,7 @@
   min-width: 120px;
   z-index: 1;
   position: absolute;
-  top: 48px;
+  top: 50px;
   left: 0px;
 }
 .menu-item {
