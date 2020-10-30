@@ -44,6 +44,7 @@ body {
 .sidebar_ul {
   line-height: 40px;
   padding-left: 0px;
+  margin: 0px;
 }
 .sidebar_li {
   margin: 0px 0px 0px 16px;
