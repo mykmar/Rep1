@@ -1,22 +1,11 @@
-* {
-  box-sizing: border-box;
+.thumb {
+  margin: 8px;
 }
-.text {
-  margin: 16px;
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
 }
-.text1 {
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-.tooltip {
-  padding: 8px;
-  background-color: grey;
-  border-radius: 4px;
-  color: white;
-  position: relative;
-  top: 13px;
-  visibility: hidden;
-}
-.text:hover .tooltip {
-  visibility: visible;
+.gallery:hover {
+  cursor: all-scroll;
 }
