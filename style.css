@@ -8,3 +8,6 @@ li:first-child {
 li:nth-child(2) {
   text-decoration: line-through;
 }
+li:last-child {
+  text-decoration: underline green;
+}
