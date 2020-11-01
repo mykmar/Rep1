@@ -17,3 +17,6 @@
   top: 13px;
   visibility: hidden;
 }
+.text:hover .tooltip {
+  visibility: visible;
+}
