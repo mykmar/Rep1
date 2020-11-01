@@ -1,29 +1,30 @@
 * {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  box-sizing: border-box;
 }
-.section {
+section {
   margin: 32px;
 }
-.h1 {
+h1 {
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
 }
-.p {
+p {
   line-height: 28px;
 }
-.span {
+span {
   font-weight: 900;
   letter-spacing: 3px;
   opacity: 0.8;
   text-decoration: underline;
   font-size: 24px;
 }
-.a {
+a {
   text-decoration: none;
   color: #0000ee;
 }
-.em {
+em {
   color: grey;
 }
