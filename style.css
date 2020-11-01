@@ -8,6 +8,6 @@ li {
 .second {
   text-decoration: line-through;
 }
-.fucksuka {
+li:last-child {
   text-decoration: underline green;
 }
