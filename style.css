@@ -3,12 +3,13 @@
   height: 500px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
   background-position: center;
+  background-size: cover;
   text-align: center;
 }
 .span {
   font-size: 32px;
   font-weight: 700;
-  background-image: linear-gradient(to top, yellow, red);
+  background-image: linear-gradient(to top, white, white);
   color: transparent;
   -webkit-background-clip: text;
   display: inline-block;
