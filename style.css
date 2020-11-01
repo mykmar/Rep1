@@ -1,15 +1,16 @@
-li {
-  list-style-type: none;
+.mountains {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-position: center;
+  text-align: center;
 }
-ul {
-  font-size: 1.5em;
-}
-li:first-child {
-  text-decoration: overline red;
-}
-li:nth-child(2) {
-  text-decoration: line-through;
-}
-li:last-child {
-  text-decoration: underline green;
+.span {
+  font-size: 32px;
+  font-weight: 700;
+  background-image: linear-gradient(to top, yellow, red);
+  color: transparent;
+  -webkit-background-clip: text;
+  display: inline-block;
+  padding-top: 32px;
 }
