@@ -8,10 +8,8 @@
   background-position: center;
   background-size: cover;
   text-align: center;
-  background-clip: border-box;
   font-size: 2em;
   font-weight: 700;
   color: white;
-  display: inline-block;
   padding-top: 32px;
 }
