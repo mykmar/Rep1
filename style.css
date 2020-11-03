@@ -9,6 +9,7 @@
   background-size: cover;
   text-align: center;
   background-clip: border-box;
+  border-bottom: 10px solid #dadc;
 }
 .span {
   font-size: 2em;
