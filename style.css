@@ -3,9 +3,9 @@
 }
 .mountains {
   width: 300px;
-  height: 520px;
+  height: 500px;
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   text-align: center;
   background-clip: border-box;
@@ -17,5 +17,5 @@
   color: transparent;
   -webkit-background-clip: text;
   display: inline-block;
-  margin-top: 31px;
+  margin-top: 32px;
 }
