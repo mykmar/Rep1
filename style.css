@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-div > img[src$=".jpeg"] {
+.main-image {
   display: block;
   margin: 50px auto;
   max-width: 100%;
