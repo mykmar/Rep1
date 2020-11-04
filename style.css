@@ -1,7 +1,29 @@
-div.rectangle {
-  background-color: blueviolet;
+* {
+  box-sizing: border-box;
 }
-.text.new::first-letter {
-  color: green;
-  font-size: 24px;
+.img1 {
+  margin: 50px auto;
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.img2 {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+.opacity {
+  filter: opacity(50%);
+}
+.blur {
+  filter: blur(4px);
+}
+.invert {
+  filter: invert(100%);
+}
+.caption {
+  line-height: 30px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
 }
