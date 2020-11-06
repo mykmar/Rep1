@@ -1,29 +1,24 @@
-.image {
-  display: block;
-  max-width: 100%;
-}
-.div1 {
-  margin: 0 auto;
-  width: fit-content;
-  max-width: 100%;
+.checkbox {
   position: relative;
+  padding-left: 35px;
+  font-size: 24px;
+  display: inline-block;
+  margin: 16px;
 }
-.image-button {
+input {
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  background-color: #d3d3d3;
+}
+input:checked + span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #006400;
+}
+span {
   position: absolute;
-  top: calc(50% - 25px);
-  left: calc(50% - 100px);
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
-  width: 200px;
-  height: 50px;
-  opacity: 0.5;
-  background-color: bisque;
-  text-align: center;
-  line-height: 50px;
-  vertical-align: center;
-}
-.image-button:hover {
-  opacity: 1;
-  cursor: pointer;
+  top: 0px;
+  left: 0px;
 }
