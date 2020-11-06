@@ -9,15 +9,15 @@ input {
   visibility: hidden;
   width: 0px;
   height: 0px;
-  background-color: #d3d3d3;
 }
 input:checked + span {
   display: inline-block;
-  width: 25px;
-  height: 25px;
   background-color: #006400;
 }
 span {
+  width: 25px;
+  height: 25px;
+  background-color: #d3d3d3;
   position: absolute;
   top: 0px;
   left: 0px;
