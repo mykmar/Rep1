@@ -27,10 +27,11 @@ button {
   width: 100%;
 }
 label {
-  margin-top: 8px;
+  margin-bottom: 4px;
 }
 input {
-  margin-top: 4px;
+  margin-bottom: 8px;
+  padding: 4px;
   height: 32px;
   border-radius: 4px;
   border: 1px solid #808080;
