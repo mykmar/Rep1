@@ -10,18 +10,38 @@
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      div {
+        margin: 16px;
+      }
+    </style>
   </head>
   <body>
-    <div class="image-container">
-      <div class="div1">
-        <img
-          class="image"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-          alt="Forest"
-        />
-        <span class="image-button">Later I'll do something</span>
+    <form>
+      <div>
+        <input type="text" name="lastName" value="Emerson" />
       </div>
-    </div>
+      <div>
+        <input type="number" name="age" value="17" />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" value="17" />
+        Accept terms and conditions
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+        <input type="radio" name="gender" />Secret
+      </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
