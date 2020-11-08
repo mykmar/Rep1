@@ -5,7 +5,7 @@ input,
 textarea,
 button,
 select {
-  margin-bottom: 8px;
+  margin: 8px;
   display: block;
 }
 input[name="avatar"] {
