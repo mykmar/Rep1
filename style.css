@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 form {
   margin: 32px;
 }
@@ -15,5 +20,5 @@ input[type="radio"] {
 }
 input[name="like"],
 input[type="password"] {
-  margin-top: 17px;
+  margin-top: 16px;
 }
