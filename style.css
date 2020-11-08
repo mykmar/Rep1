@@ -13,10 +13,7 @@ input[type="radio"] {
   display: inline;
   margin: 0px;
 }
-input[name="like"] {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
+input[name="like"],
 input[type="password"] {
   margin-top: 16px;
 }
