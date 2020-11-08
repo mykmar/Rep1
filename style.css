@@ -12,6 +12,9 @@ input[name="avatar"] {
   display: inline;
 }
 input[type="radio"] {
-  margin-right: 0px;
+  margin: 0px;
   display: inline;
+}
+.languages {
+  margin: 8px;
 }
