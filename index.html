@@ -9,91 +9,72 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <style>
-      form {
-        margin: 32px;
-      }
-      input,
-      textarea,
-      button,
-      select {
-        margin: 8px;
-      }
-      input[type="radio"] {
-        margin-right: 0px;
-      }
-      span {
-        display: block;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
     <form>
       <input type="text" name="primaryLanguage" value="HTML" disabled />
-      <br />
+
       <input type="checkbox" name="agree" unchecked />
-      <br />
+
       <input type="checkbox" name="like" checked readonly />
-      <br />
+
       <input type="color" name="favouriteColor" value="#ff7f50" />
-      <br />
+
       <input type="date" name="birthDate" value="2021-01-02" />
-      <br />
+
       <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" />
-      <br />
+
       <input
         type="email"
         name="email"
         placeholder="example@domain.com."
         required
       />
-      <br />
-      <label
-        ><input name="avatar" type="button" value="Chose File" />No file
-        chosen</label
-      >
-      <br />
+      <div>
+        <input name="avatar" type="button" value="Choose File" />No file chosen
+      </div>
       <input type="month" value="2020-01" />
-      <br />
+
       <input name="favouriteNumber" type="number" value="17" />
-      <br />
+
       <textarea
         name="story"
         cols="30"
         rows="5"
         placeholder="A long time ago..."
       ></textarea>
-      <br />
+
       <input type="password" name="password" value="secret" />
-      <br />
-      <span class="languages">
+
+      <div class="languages">
         <input type="radio" name="language" value="html" />HTML
         <input type="radio" name="language" value="сss" />CSS
         <input type="radio" name="language" value="javascript" />JavaScript
-      </span>
-      <br />
+      </div>
+
       <input type="range" name="learningProgress" value="30" />
-      <br />
+
       <select name="framework">
         <option value="jquery">jQuery</option>
         <option value="bootstrap">Bootstrap</option>
         <option value="react">React</option>
       </select>
-      <br />
+
       <input type="search" name="search" placeholder="Type first letters..." />
-      <br />
+
       <input type="time" name="lunchEnd" value="14:01" />
-      <br />
+
       <input
         type="url"
         name="website"
         placeholder="https://website.com"
         required
       />
-      <br />
+
       <input type="week" name="birthWeek" value="2021-W51" />
-      <br />
+
       <button type="submit">Save</button>
     </form>
   </body>
