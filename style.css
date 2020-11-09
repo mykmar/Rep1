@@ -14,7 +14,7 @@ td {
   border: 1px solid black;
   text-align: right;
   padding: 4px;
-  line-height: 40px;
+  height: 40px;
 }
 div {
   overflow-x: auto;
