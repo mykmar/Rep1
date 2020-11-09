@@ -1,29 +1,19 @@
-button {
-  margin: 64px;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  background-color: coral;
-  color: #fff;
-  border-radius: 4px;
-  border: none;
-  text-transform: uppercase;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
-  cursor: pointer;
+.fa-battery-full {
+  font-size: 1em;
 }
-button:hover {
-  color: darkcyan;
+.fa-battery-three-quarters {
+  font-size: 2em;
 }
-button:hover svg {
-  fill: green;
+.fa-battery-half {
+  font-size: 4em;
 }
-svg {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-  fill: #fff;
+.fa-battery-quarter {
+  font-size: 8em;
 }
-i {
-  padding-right: 8px;
+.fa-battery-empty {
+  font-size: 16em;
+}
+body {
+  display: flex;
+  justify-content: space-around;
 }
