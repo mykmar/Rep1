@@ -6,9 +6,29 @@ table {
   margin: 16px;
   border-collapse: collapse;
 }
+thead {
+  background-color: aqua;
+}
 th,
 td {
   border: 1px solid black;
   text-align: right;
   padding: 4px;
+  line-height: 40px;
+}
+div {
+  overflow-x: auto;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tr:hover.tr {
+  background-color: #aaa;
+  color: white;
+}
+tfoot {
+  font-weight: 700;
+}
+caption {
+  padding-bottom: 8px;
 }
