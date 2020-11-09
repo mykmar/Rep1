@@ -3,7 +3,7 @@
 }
 table {
   margin: 16px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 td {
@@ -16,5 +16,4 @@ td {
 }
 .black {
   background-color: black;
-  border: 2px solid black;
 }
