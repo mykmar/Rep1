@@ -17,3 +17,8 @@ td {
 .black {
   background-color: black;
 }
+.white {
+  border: 1px solid black;
+  border-right: none;
+  border-bottom: none;
+}
