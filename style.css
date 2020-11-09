@@ -1,17 +1,8 @@
 form {
   margin: 32px;
 }
-input,
-textarea,
-button,
-select,
 div {
   margin: 8px;
-  display: block;
-}
-input[type="radio"] {
-  display: inline;
-  margin: 0px;
 }
 input[name="like"],
 input[type="password"] {
