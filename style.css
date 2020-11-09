@@ -22,3 +22,9 @@ td {
   border-right: none;
   border-bottom: none;
 }
+.spec {
+  border-right: 1px solid black;
+}
+.spec2 {
+  border-bottom: 1px solid black;
+}
