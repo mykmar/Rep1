@@ -18,8 +18,9 @@
   border-radius: 2px;
   background-color: black;
   position: relative;
-  animation: blinking 2s, moving 2s;
+  animation: blinking, moving;
   animation-iteration-count: infinite;
-  /* animation-timing-function: linear; */
+  animation-timing-function: linear;
   animation-direction: alternate;
+  animation-duration: 2s;
 }
