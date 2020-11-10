@@ -23,7 +23,7 @@
 }
 @keyframes move {
   from {
-    top: 0px;
+    top: -100px;
   }
 
   to {
