@@ -33,6 +33,6 @@
   }
 
   to {
-    top: calc(50vh - 50px);
+    top: 50vh;
   }
 }
