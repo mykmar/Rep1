@@ -1,29 +1,37 @@
 * {
   box-sizing: border-box;
 }
-.container {
+.block {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: center;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  position: absolute;
+  animation: move 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+body {
   height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
-.spinner-text {
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-.rect {
-  width: 10px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: black;
-  position: relative;
-  animation: blinking, moving;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-  animation-duration: 2s;
+@keyframes move {
+  from {
+    top: 100px;
+  }
+
+  to {
+    top: calc(50vh - 50px);
+  }
 }
