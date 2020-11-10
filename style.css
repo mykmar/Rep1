@@ -17,7 +17,6 @@
   margin: auto;
   position: relative;
   animation: move 2s;
-  animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
