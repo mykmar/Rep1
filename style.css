@@ -1,19 +1,21 @@
-.fa-battery-full {
-  font-size: 1em;
+* {
+  box-sizing: border-box;
 }
-.fa-battery-three-quarters {
-  font-size: 2em;
+.container {
+  margin: 32px;
 }
-.fa-battery-half {
-  font-size: 4em;
+.rect {
+  margin-bottom: 16px;
+  background-color: coral;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  transition: width 2s, opacity 0.5s;
 }
-.fa-battery-quarter {
-  font-size: 8em;
-}
-.fa-battery-empty {
-  font-size: 16em;
-}
-body {
-  display: flex;
-  justify-content: space-around;
+.rect:hover {
+  width: 100%;
+  opacity: 1;
 }
