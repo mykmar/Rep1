@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.text {
+.block {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -9,8 +9,6 @@
   text-transform: uppercase;
   line-height: 100px;
   vertical-align: center;
-}
-.block {
   text-align: center;
   width: 250px;
   height: 100px;
@@ -29,6 +27,6 @@
   }
 
   to {
-    top: 300px;
+    top: calc(50vh - 50px);
   }
 }
