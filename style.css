@@ -14,17 +14,19 @@
   border-radius: 10px;
   background-color: coral;
   margin: auto;
-  position: relative;
+  /* position: relative; */
   animation: move 2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
 }
 @keyframes move {
   from {
+    position: relative;
     top: -100px;
   }
 
   to {
+    position: relative;
     top: calc(50vh - 50px);
   }
 }
