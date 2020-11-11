@@ -1,9 +1,47 @@
 * {
   box-sizing: border-box;
 }
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: tomato;
-  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+body {
+  height: 100vh;
+  display: flex;
+}
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background: linear-gradient(45deg, yellow, red);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  animation: jump 0.5s 0.4s ease-in-out, spin 0.5s ease-in-out, hide 1s 2s ease;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(2000px);
+  }
 }
