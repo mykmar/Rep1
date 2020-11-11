@@ -34,22 +34,9 @@
 }
 @keyframes moving {
   0% {
-    border-top-color: black;
-  }
-  25% {
-    border-top-color: lightgrey;
-    border-right-color: black;
-  }
-  50% {
-    border-right-color: lightgrey;
-    border-bottom-color: black;
-  }
-  75% {
-    border-bottom-color: lightgrey;
-    border-left-color: black;
+    transform: rotate(0deg);
   }
   100% {
-    border-left-color: lightgrey;
-    border-top-color: black;
+    transform: rotate(360deg);
   }
 }
