@@ -6,7 +6,7 @@ html {
   color: #555;
   /* height: 100vh; */
 }
-.wrapper {
+body {
   height: 100vh;
   display: flex;
   flex-direction: column;
