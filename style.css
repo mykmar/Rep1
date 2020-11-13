@@ -4,9 +4,9 @@
 html {
   font: 16px Verdana;
   color: #555;
-  height: 100vh;
+  /* height: 100vh; */
 }
-body {
+.wrapper {
   height: 100vh;
   display: flex;
   flex-direction: column;
