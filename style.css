@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 html {
-  font: 16px Verdana;
+  font-family: Verdana;
+  font-size: 16px;
   color: #555;
-  /* height: 100vh; */
 }
 body {
   min-height: 100vh;
@@ -13,9 +13,10 @@ body {
 }
 .header {
   background: linear-gradient(60deg, red, orange);
-  color: white;
+}
+h1 {
   text-align: center;
-  /* flex: 0 0 auto; */
+  color: white;
 }
 .main {
   display: flex;
@@ -69,6 +70,5 @@ body {
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
-  /* flex: 0 0 auto; */
   text-align: center;
 }
