@@ -4,7 +4,6 @@
 div {
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 span {
   text-transform: lowercase;
@@ -26,11 +25,19 @@ span {
 @media (min-width: 600px) {
   section {
     display: flex;
-    flex-grow: 2;
+  }
+  .nav,
+  .products {
+    width: 50%;
   }
 }
 @media (min-width: 900px) {
   main {
     display: flex;
+  }
+  .nav,
+  .products,
+  .news {
+    width: calc(100vw / 3);
   }
 }
