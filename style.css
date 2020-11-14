@@ -1,74 +1,26 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-family: Verdana;
-  font-size: 16px;
-  color: #555;
-}
 body {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
-.header {
-  background: linear-gradient(60deg, red, orange);
+.container {
+  margin: auto;
 }
-h1 {
-  text-align: center;
-  color: white;
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  background-color: #ff7f50;
 }
-.main {
-  display: flex;
-  flex-grow: 1;
+@media (min-width: 600px) {
+  .square {
+    background-color: #8a2be2;
+  }
 }
-.navigation,
-.section,
-.news {
-  padding: 0.5em;
-}
-.navigation,
-.news {
-  width: 20%;
-}
-.navigation > ul {
-  padding: 0px;
-  list-style-type: none;
-}
-.nav-list-item {
-  background-color: #808080;
-  margin-bottom: 0.5em;
-  line-height: 2em;
-}
-.nav-list-link {
-  display: block;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  text-decoration: none;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.section {
-  width: 60%;
-  font-size: 1.25em;
-}
-.section__header {
-  font-size: 5vw;
-  text-align: center;
-}
-.section > ul {
-  line-height: 1.75em;
-}
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
-  font-weight: 700;
-}
-.footer {
-  background-color: #e5e5e5;
-  padding: 0.5em;
-  text-align: center;
+@media (orientation: landscape) {
+  .container {
+    display: flex;
+  }
 }
