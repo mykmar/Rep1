@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 div {
-  height: 200px;
+  min-height: 200px;
   display: flex;
+  flex-grow: 1;
 }
 span {
   text-transform: lowercase;
@@ -25,20 +26,11 @@ span {
 @media (min-width: 600px) {
   section {
     display: flex;
-  }
-  .nav,
-  .products {
-    flex-grow: 1;
+    flex-grow: 2;
   }
 }
 @media (min-width: 900px) {
   main {
     display: flex;
-  }
-  section {
-    flex-grow: 2;
-  }
-  .news {
-    flex-grow: 1;
   }
 }
