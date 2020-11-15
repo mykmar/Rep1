@@ -13,9 +13,12 @@ html {
 .fa-bars {
   font-size: 2em;
 }
+.header {
+  display: flex;
+  align-items: center;
+}
 button {
   padding: 0px;
-  background-color: white;
   border: none;
   outline: none;
 }
@@ -39,7 +42,8 @@ button {
   width: inherit;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding: 0.5em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
   text-decoration: none;
   color: white;
 }
