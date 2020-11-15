@@ -8,25 +8,32 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+      integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <picture>
-      <source
-        srcset="
-          https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
-        "
-        media="(max-width: 400px)"
-      />
-      <source
-        srcset="
-          https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
-        "
-      />
-      <img
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
-        alt="alt"
-      />
-    </picture>
+    <header class="header">
+      <button type="button"><i class="fas fa-bars"></i></button>
+    </header>
+    <main class="main">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Responsive images</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Mediaqueries</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Flexbox</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
   </body>
 </html>
