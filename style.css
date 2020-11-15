@@ -5,6 +5,7 @@ body {
   display: flex;
   justify-content: center;
 }
-picture {
+img {
   max-width: 100%;
+  height: auto;
 }
