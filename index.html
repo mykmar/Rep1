@@ -11,22 +11,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <picture class="picture">
-      <source
-        srcset="
-          https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
-        "
-        media="(min-width: 401px)"
-      />
-      <source
-        srcset="
-          https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
-        "
-      />
-      <img
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
-        alt="alt"
-      />
-    </picture>
+    <main>
+      <picture>
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg
+          "
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="
+            https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg
+          "
+        />
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg"
+          alt="alt"
+        />
+      </picture>
+    </main>
   </body>
 </html>
