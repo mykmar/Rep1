@@ -1,27 +1,19 @@
 .header {
-  height: 56px;
   background-color: #eee;
-  display: flex;
-  align-items: center;
 }
-/* .header__navigation {
-  height: 100%;
-} */
 .header__navigation .nav-list {
   margin: 0px;
   padding: 0px;
   display: flex;
-  /* height: 100%;
-  align-items: center; */
+  align-items: center;
+  height: 56px;
   list-style-type: none;
-  position: relative;
-  top: -1px;
+  font-weight: 700;
 }
 .header__navigation .nav-list__item {
   border-radius: 4px;
   color: #fff;
   padding: 8px;
-  font-weight: 700;
   cursor: pointer;
   background-color: #ff7f50;
   margin-left: 8px;
