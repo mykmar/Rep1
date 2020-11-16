@@ -29,6 +29,10 @@
   background-color: #fb0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font: 16px Verdana, Geneva, Tahoma, sans-serif;
 }
