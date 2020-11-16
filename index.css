@@ -1,16 +1,16 @@
 .header {
   background-color: #eee;
 }
-.header__navigation .nav-list {
+.header .nav-list {
+  height: 56px;
   margin: 0px;
   padding: 0px;
   display: flex;
   align-items: center;
-  height: 56px;
   list-style-type: none;
   font-weight: 700;
 }
-.header__navigation .nav-list__item {
+.header .nav-list__item {
   border-radius: 4px;
   color: #fff;
   padding: 8px;
@@ -18,10 +18,10 @@
   background-color: #ff7f50;
   margin-left: 8px;
 }
-.header__navigation .nav-list__item:hover {
+.header .nav-list__item:hover {
   opacity: 0.7;
 }
-.header__navigation .nav-list__item_selected {
+.header .nav-list__item_selected {
   background-color: #fb0;
 }
 
