@@ -1,117 +1,38 @@
-* {
-  box-sizing: border-box;
-}
-html {
-  font-family: Verdana;
-  font-size: 16px;
-  color: #555;
-}
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 .header {
-  background: linear-gradient(60deg, red, orange);
-}
-h1 {
-  text-align: center;
-  color: white;
-}
-.main {
+  height: 56px;
+  background-color: #eee;
   display: flex;
-  flex-grow: 1;
+  align-items: center;
 }
-.navigation,
-.section,
-.news {
-  padding: 0.5em;
+.header__navigation {
+  height: 100%;
 }
-.navigation,
-.news {
-  width: 20%;
-}
-.navigation > ul {
+.header__navigation .nav-list {
+  margin: 0px;
   padding: 0px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.header__navigation .nav-list__item {
   list-style-type: none;
-}
-.nav-list-item {
-  background-color: #808080;
-  margin-bottom: 0.5em;
-  line-height: 2em;
-}
-.nav-list-link {
-  display: block;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  text-decoration: none;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.section {
-  width: 60%;
-  font-size: 1.25em;
-}
-.section__header {
-  font-size: 5vw;
-  text-align: center;
-}
-.section > ul {
-  line-height: 1.75em;
-}
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px;
   font-weight: 700;
+  cursor: pointer;
+  background-color: #ff7f50;
+  margin-left: 8px;
 }
-.footer {
-  background-color: #e5e5e5;
-  padding: 0.5em;
-  text-align: center;
+.header__navigation .nav-list__item:hover {
+  opacity: 0.7;
 }
-img {
-  width: 100%;
-  height: auto;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+.header__navigation .nav-list__item_selected {
+  background-color: #fb0;
 }
-@media (max-width: 599px) {
-  main {
-    flex-direction: column;
-  }
-  .navigation,
-  .section,
-  .news {
-    width: 100%;
-  }
+
+html {
+  font: 16px Verdana, Geneva, Tahoma, sans-serif;
 }
-@media (min-width: 600px) and (max-width: 1199px) {
-  /* main {
-    flex-direction: column;
-  }
-  .div0 {
-    display: flex;
-  }
-  .section {
-    width: 80%;
-  }
-  .news {
-    width: 100%;
-  } */
-  main {
-    display: block !important;
-  }
-  .navigation {
-    width: 20%;
-    float: left;
-  }
-  .section {
-    width: 80%;
-    display: inline-block;
-  }
-  .news {
-    width: 100%;
-  }
-}
+
+/*# sourceMappingURL=index.css.map */
