@@ -11,8 +11,8 @@
   margin: 0px;
   padding: 0px;
   display: flex;
-  /* height: 100%; */
-  align-items: center;
+  /* height: 100%;
+  align-items: center; */
   list-style-type: none;
 }
 .header__navigation .nav-list__item {
