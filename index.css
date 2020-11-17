@@ -17,7 +17,6 @@
   margin-left: 8px;
   border-radius: 4px;
   cursor: pointer;
-  line-height: 1em;
 }
 .header .nav-list__item_selected {
   background-color: #fb0;
