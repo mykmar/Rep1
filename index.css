@@ -1,13 +1,14 @@
 .header {
   background-color: #eee;
+  display: flex;
+  align-items: center;
+  height: 56px;
 }
 .header .nav-list {
   padding: 0px;
   margin: 0px;
   display: flex;
   list-style-type: none;
-  align-items: center;
-  height: 56px;
   color: #fff;
   font-weight: 700;
 }
