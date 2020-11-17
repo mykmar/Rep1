@@ -8,7 +8,6 @@
   padding: 0px;
   margin: 0px;
   list-style-type: none;
-  display: flex;
 }
 .nav-list__item {
   border-radius: 4px;
@@ -18,6 +17,7 @@
   font-weight: 700;
   cursor: pointer;
   background-color: #ff7f50;
+  display: inline-block;
 }
 .nav-list__item_selected {
   background-color: #fb0;
