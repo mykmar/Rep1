@@ -27,12 +27,9 @@
   opacity: 0.7;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
-  font: 16px Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=index.css.map */
