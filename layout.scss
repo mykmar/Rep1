@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+@media (min-width: $sm) {
+  section {
+    display: flex;
+  }
+  .nav,
+  .products {
+    width: 50%;
+  }
+}
+@media (min-width: $lg) {
+  main {
+    display: flex;
+  }
+  .nav,
+  .products,
+  .news {
+    width: calc(100vw / 3);
+  }
+}
