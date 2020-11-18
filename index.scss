@@ -1,37 +1,10 @@
-@import "breakpoints.scss";
+@import "header.scss";
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-  display: flex;
-}
-
-.container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-
-  @include landscape {
-    flex-direction: row;
-  }
-}
-
-.square {
-  width: 100px;
-  height: 100px;
-  margin: 8px;
-  background-color: #ff7f50;
-
-  @include medium-screen {
-    background-color: #8a2be2;
-  }
-  @include big-screen {
-    background-color: #a61;
-  }
-  @include biggest-screen {
-    background-color: #c47;
-  }
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
